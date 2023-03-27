@@ -1,0 +1,61 @@
+#animation1 {
+    transform: translateY(300px);
+    transition: transform 1s ease-in-out;
+}
+
+#animation1.scroll {
+    transform: translateY(0);
+}
+
+#animation3 {
+    transform: translateY(300px);
+    transition: transform 1s ease-in-out;
+}
+
+#animation3.scroll {
+    transform: translateY(0);
+}
+
+#animation4 {
+    transform: translateY(300px);
+    transition: transform 1s ease-in-out;
+    opacity: 0;
+}
+
+#animation4.scroll {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#animation5 {
+    transform: translateY(300px);
+    transition: transform 1s ease;
+    opacity: 0;
+}
+
+#animation5.scroll {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#animation6 {
+    transform: translateY(300px);
+    transition: transform 1s ease;
+    opacity: 0;
+}
+
+#animation6.scroll {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#animation7 {
+    transform: translateY(300%);
+    transition: transform 2s;
+    opacity: 0;
+}
+
+#animation7.scroll {
+    transform: translateY(0%);
+    opacity: 1;
+}
